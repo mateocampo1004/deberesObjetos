@@ -15,7 +15,9 @@ Este código TypeScript puede ser útil cuando deseas generar un mensaje persona
 export function twoFer(name: string = 'you'): string {
     return `One for ${name}, one for me.`;
   }
-  
+
+(`---`)
+
 
 // HELLO-WORLD
 
