@@ -11,6 +11,12 @@ La función TypeScript `twoFer` está diseñada para devolver una cadena que sig
 
 Este código TypeScript puede ser útil cuando deseas generar un mensaje personalizado con un nombre específico, pero proporciona un valor predeterminado si no se proporciona ningún nombre.
 
+```typescript
+export function twoFer(name: string = 'you'): string {
+    return `One for ${name}, one for me.`;
+  }
+  
+
 // HELLO-WORLD
 
 ### Función de Saludo en TypeScript
