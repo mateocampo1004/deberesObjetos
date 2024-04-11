@@ -9,9 +9,6 @@ export const COLORS: string[] = [
     'green', 'blue', 'violet', 'grey', 'white'
 ];
 ```
-
-
-
 La función `colorCode` toma un color como parámetro y devuelve su código correspondiente en la lista de colores. Utiliza el método `indexOf` para buscar el índice del color dentro del array `COLORS`. Si el color no se encuentra en la lista, se lanza un error con un mensaje indicando que el color es inválido.
 
 ```typescript
