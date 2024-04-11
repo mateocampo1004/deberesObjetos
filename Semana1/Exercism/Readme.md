@@ -53,7 +53,6 @@ La enumeración TypeScript `ResistorValues` define los valores de los colores de
 - `grey = 8`: Representa el color gris, que tiene el valor numérico 8.
 - `white = 9`: Representa el color blanco, que tiene el valor numérico 9.
 
-// FUNCIONES PARA DECODIFICAR EL VALOR DE RESISTORES
 
 El tipo `Color` se define como una unión de las claves de la enumeración `ResistorValues`. Esto garantiza que solo se puedan usar colores válidos al decodificar los valores de los resistores.
 
