@@ -1,4 +1,4 @@
-```
+
 // TWO-FEARS
 
 ### Función para mensaje personalizado
@@ -33,4 +33,4 @@ export function hello(): string {
   return 'Hello, World!';
 }
 ```
-```
+
