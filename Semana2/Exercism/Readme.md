@@ -74,3 +74,8 @@ export const decodedValue = (colors: string[]): number => {
   // Crea una instancia de ResistorColor y calcula su valor
   return new ResistorColor(colors).value();
 }
+
+
+URL Youtube
+
+https://youtu.be/eXlfS-edTV0

@@ -32,3 +32,7 @@ El siguiente código TypeScript define una función `hello` que simplemente devu
 export function hello(): string {
   return 'Hello, World!';
 }
+
+URL Youtube
+
+https://youtu.be/Q_1QIrECJ30 
