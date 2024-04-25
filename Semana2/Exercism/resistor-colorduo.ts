@@ -11,7 +11,7 @@ const COLORS: string[] = [
         throw new Error("At least two colors need to be present");
       this.colors = colors.slice(0, 2);
     }
-  
+   
     value = (): number => {
       let result = 0;
       this.colors.forEach((color: string) => {
@@ -19,7 +19,7 @@ const COLORS: string[] = [
         if (code == -1)
           throw new Error("Unknown color: " + color);
         result = 10 * result + code;
-      });
+      });0
       return result; 
     }; 
   }
